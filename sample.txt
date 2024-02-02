@@ -1,0 +1,38 @@
+git clone <url>
+ls -la
+ls
+git log
+git status
+or
+git log -p -1
+
+
+//to open a file
+vim <file name>
+
+//to stage state 
+git add <file name>
+git add .  (to add all file name)
+// stage to modified
+1.git restore --staged <file name>
+2.git restore (to remive all changes)
+// note: stages----> modified->staged->commit
+
+//commit
+git commit -m
+
+//configuration
+ git config --global user.email "you@example.com"
+ git config --global user.name "Your name"
+
+
+//to push
+$ git remote -v
+git push
+
+
+//branch 
+git branch (lists all branch)
+git branch br_name (new branch creattion)
+git checkout branch_name (switching to branch)
+on
