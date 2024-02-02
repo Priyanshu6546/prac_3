@@ -38,4 +38,4 @@ git checkout branch_name (switching to branch)
 on
 
 
-git commands
+git commands and their execution
